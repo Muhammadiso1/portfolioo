@@ -210,13 +210,21 @@ body {
   }
   .container header ul {
     display: flex;
+    margin: 0 auto;
     margin-top: 100px;
-    margin-left: -220px;
+    margin-left: -240px;
+    justify-content: center;
     background-color: rgb(84, 84, 250);
+  }
+  .container header ul li a {
+    color: red;
+    margin: 0 auto;
+    margin-left: 15px;
+    transform: translateX(-40px);
   }
   .container main img {
     width: 60%;
-    margin-left: 60px;
+    margin-left: 65px;
     margin-top: 40px;
   }
   .container main .info {
@@ -231,20 +239,36 @@ body {
   .container main .info a {
     margin: 0 auto;
   }
+  .container .page-1 p {
+    padding: 20px;
+  }
+  .container .page-1 code {
+    color: green;
+    display: block;
+  }
+  .container .info-2 {
+    height: auto;
+  }
+  .container .info-2 a {
+    margin-bottom: 0px;
+  }
   .container .info-3 .progress {
     width: 300px;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .container .info-3 h1 {
     display: flex;
-    margin-top: 150px;
-    margin-left: 100px;
+    padding-top: 150px;
+    margin: 0 auto;
   }
   .container .info-3 img {
     margin: 0 auto;
-    margin-left: 65px;
     display: flex;
-    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: -120px;
+    margin-top: 50px;
   }
   .container footer p {
     width: 300px;
@@ -256,5 +280,14 @@ body {
   .container footer .apps {
     width: 300px;
     margin: 0 auto;
+  }
+  .container footer .man {
+    color: red;
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: -30px;
   }
 }/*# sourceMappingURL=style.css.map */
